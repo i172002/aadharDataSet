@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['aadhar card']
+
+roboflow:
+  workspace: appinsource-v5mmj
+  project: aadhar-card-detection-nfk6r
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/appinsource-v5mmj/aadhar-card-detection-nfk6r/dataset/14
